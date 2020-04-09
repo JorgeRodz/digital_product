@@ -1,0 +1,61 @@
+html {
+    font-size: 62.5%; /*Reset para REMS - 62.5% = 10px de 16px | 1 rem = 10px  */
+    box-sizing: border-box; /*Aplicar correctamente box-sizing*/
+}
+*, *:before, *:after { /*Aplicar correctamente box-sizing*/
+    box-sizing: inherit; /*Aplicar correctamente box-sizing*/
+}
+
+body {
+    font-family: Helvetica, sans-serif; /*Establecimos el tipo de fuente para todo el documento*/
+    font-size: 1.2rem; /*Para establecer un tamaño estandar a todo el font-size del documento;*/
+    line-height: 2; /*Interlineado*/
+}
+
+
+/*----------------------------------------------Globales------------------------------------------------------*/
+img {
+    max-width: 100%; /* Para ajustar las imagenes al contenedor padre*/
+}
+
+/*---------------utilidades-----------------*/
+
+
+/*---------Medidas estandar para titulos-----------*/
+h1 {
+    font-size: 4rem;
+}
+h2 {
+    font-size: 3.6rem;
+}
+h3 {
+    font-size: 3.2rem;
+    
+}
+h4 {
+    font-size: 2.8rem;
+}
+
+/*---------------Header global-----------------*/
+nav {
+    display: flex; /*Aplicamos flexbox*/
+    justify-content: space-between; /*acomodar horizontalmente los elementos*/
+    align-items: center; /*acomodar verticalmente los elementos*/
+    background-color: #7acc2d;
+    padding: 1rem;
+    color: #ffffff;
+}
+nav ul {
+    display: flex; /*aplicamos flexbox*/
+    list-style: none; /*para quitar el estilo por defecto de las listas*/
+}
+nav ul li {
+    padding-left: 2rem; /*le agregamos un paddin a cada elemento de la lista*/
+}
+nav ul li a {
+    text-decoration: none; /*Para quitar los estilos por default de los enlaces*/
+    color: gray;
+}
+nav ul li a:hover {
+    color: #ffffff;
+}

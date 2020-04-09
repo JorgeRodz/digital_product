@@ -1,15 +1,25 @@
 <!DOCTYPE html> <!--Indica que estamos usando html5-->
-<html lang="es-MX"><!--Definimos como lenguaje el español referente de Mexico.-->
+<html lang="es"><!--Definimos como lenguaje el español-->
 <head>
     <meta charset="UTF-8"><!--Para que se pueden leer caracteres especiales-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--Etiqueta necesaria para trabajar con resposive design-->
     <meta http-equiv="X-UA-Compatible" content="ie=edge"><!--Para agregar compatibilidad con internet explorer-->
-    <title>titulo</title><!--Titulo del documento-->
+    <title>Brand</title><!--Titulo del documento-->
+    <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/estilos.css">
 </head>
 <body>
-    
-
+    <nav><!--flexbox-->
+        <div class="brand_image">
+            <img src="images/logo.png" alt="Logo de nuestro sitio web">
+        </div><!--brand_image-->
+        <div class="nav_options">
+            <ul><!--flexbox-->
+                <li><a href="#">FAQ's</a></li>
+                <li><a href="#">Producto y Descripcion</a></li>
+            </ul>
+       </div><!--nav-options-->
+    </nav>
     <script src="scripts/script.js"></script>
 </body>
 </html>
