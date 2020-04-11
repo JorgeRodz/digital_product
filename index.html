@@ -9,17 +9,46 @@
     <link rel="stylesheet" href="css/estilos.css">
 </head>
 <body>
-    <nav><!--flexbox-->
-        <div class="brand_image">
-            <img src="images/logo.png" alt="Logo de nuestro sitio web">
-        </div><!--brand_image-->
-        <div class="nav_options">
-            <ul><!--flexbox-->
-                <li><a href="#">FAQ's</a></li>
-                <li><a href="#">Producto y Descripcion</a></li>
-            </ul>
-       </div><!--nav-options-->
-    </nav>
+    <header>
+        <nav><!--flexbox-->
+            <div class="brand_image">
+                <img src="images/logo.png" alt="Logo de nuestro sitio web">
+            </div><!--brand_image-->
+            <div class="nav_options">
+                <ul><!--flexbox-->
+                    <li><a href="#">FAQ's</a></li>
+                    <li><a href="#">Producto y Descripcion</a></li>
+                </ul>
+            </div><!--nav-options-->
+        </nav><!--Aqui termina el navbar-->    
+    </header><!--Aqui termina el HEADER-->
+    <main class="main_container">
+        <div class="main_section">
+            <h1>Este es un producto increible, no se que haces viendo que lo puedes tener</h1>    
+        </div><!--main_section-->
+        <div class="products">
+            <div class="product">
+                <div class="content">
+                    <div class="img_content"> <!--utilizamos este div para centrar la imagen-->
+                        <img src="images/box1.png" alt="Imagen de gatitos en una caja">
+                    </div>
+                    <h2>Producto 1</h2>
+                    <p>Miles de productos hay en el mercado, pero nada como una caja con gatitos</p>
+                    <button class="main_button" href="#">Lo quiero</button>
+                </div><!--content-->
+            </div><!--product-->
+            <div class="product">
+                <div class="content">
+                    <div class="img_content"> <!--utilizamos este div para centrar la imagen-->
+                        <img src="images/box2.png" alt="Imagen de un señor pelon en una caja">
+                    </div>
+                    <h2>Producto 2</h2>
+                    <p>Miles de productos hay en el mercado, pero nada como una caja con gatitos</p>
+                    <button class="main_button" href="#">Lo quiero</button>
+                </div><!--content-->
+            </div><!--product-->
+        </div><!--products-->
+    </main><!--main_contaner-->
     <script src="scripts/script.js"></script>
 </body>
 </html>
