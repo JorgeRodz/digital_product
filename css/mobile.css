@@ -1,0 +1,19 @@
+@media (max-width: 600px) {
+    
+    .products {
+        display: block; 
+        height: auto; /*para que la altura se acople a lo que mide el elemento*/
+    }
+    .product {
+        margin-top: auto; /*para que el navegador ponga el margin*/
+    }
+    .main_section {
+        padding: 4%;
+    }
+
+    /*---------------Beneficios, Mentions-----------------*/
+    .beneficios, .mentions {
+        display: block;
+    }
+}
+
