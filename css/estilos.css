@@ -21,6 +21,10 @@ img {
   max-width: 100%; /* Para ajustar las imagenes al contenedor padre*/
 }
 
+p, label {
+  font-size: var(--normal);
+}
+
 /*---------------utilidades-----------------*/
 
 
@@ -29,6 +33,7 @@ img {
     --green-color:#7acc2d;
     --white-color:#ffffff;
     --black-color:#313337;
+    --grey-color:#9e9e9e;
     
     /*Tipografia*/
     --normal:1.2rem;
@@ -204,14 +209,38 @@ h2.mention_title{
 .main_container {
   margin: 7% 0;
 }
+
+/*---------------col-4-----------------*/
 .modulo_pago {
   background-color: var(--white-color);
   box-shadow: var(--box);
   padding: var(--normal);
+}
+.modulo_pago h3 {
+  margin: 1rem auto;
 }
 .modulo-pago-images {
   max-width: 15rem;
   text-align: center;
   width: 100%;
   margin: 0 auto;
+}
+
+/*---------------Formulario-----------------*/
+form label {
+  display: block;
+  margin-bottom: 1%;
+}
+form input.data {
+  display: block;
+  width: 100%;
+  height: 3.5rem;
+  margin-bottom: 5%;
+  padding: 1rem;
+  border: 1px solid var(--grey-color);
+  border-radius: .2rem;
+}
+form input[type="submit"] {
+  font-size: 1.6rem;
+  font-weight: bold;
 }
