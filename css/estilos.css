@@ -176,3 +176,28 @@ nav ul li a:hover {
     padding: var(--space);
     color: var(--white-color);
   }
+
+
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!- Producto.html - !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+
+/*---------------------------------------------------Main----------------------------------------------------*/
+.beneficios{
+    padding: 10%;
+    display: flex;
+  }
+  
+  .beneficio{
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .beneficio img{
+    max-height: 100px
+  }
+  
+  .text_beneficio{
+    text-align: justify;
+  }
+  
+  
+
