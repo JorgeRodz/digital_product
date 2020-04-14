@@ -18,7 +18,7 @@ body {
 
 /*----------------------------------------------Globales------------------------------------------------------*/
 img {
-    max-width: 100%; /* Para ajustar las imagenes al contenedor padre*/
+  max-width: 100%; /* Para ajustar las imagenes al contenedor padre*/
 }
 
 /*---------------utilidades-----------------*/
@@ -37,7 +37,7 @@ img {
     --space:1rem;
 
     /*Box shadow*/
-    --box:0 0 .2rem #c1bcbc;
+    --box:0 0 .2rem .1rem #c1bcbc;
 }
 
 /*---------Medidas estandar para titulos-----------*/
@@ -79,6 +79,15 @@ nav ul li a:hover {
     color: var(--white-color);
 }
 
+/*------------------Footer Global-----------------*/
+footer{
+  display: flex;
+  justify-content: space-between;
+  font-size: var(--normal);
+  background-color: var(--black-color);
+  padding: var(--space);
+  color: var(--white-color);
+}
 
 /*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!- index.html - !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
 
@@ -129,75 +138,80 @@ nav ul li a:hover {
 
 /*---------------------------------------------------Beneficios------------------------------------------------*/
 .beneficios{
-    padding: 10%;
-    display: flex;
-  }
+  padding: 10%;
+  display: flex;
+}
   
-  .beneficio{
-    text-align: center;
-    padding: 20px;
-  }
+.beneficio{
+  text-align: center;
+  padding: 20px;
+}
+
+.beneficio img{
+  max-height: 100px
+}
+
+.text_beneficio{
+  text-align: justify;
+}
   
-  .beneficio img{
-    max-height: 100px
-  }
-  
-  .text_beneficio{
-    text-align: justify;
-  }
-  
- /*---------------------------------------------------Mentions--------------------------------------------------*/
-  .mentions{
-    display: flex;
-    padding: 5%;
-  }
-  .mention img{
-    width: 100%;
-  }
-  h2.mention_title{
-    text-align: center;
-  }
-  .mention{
-    padding: var(--space);
-  }
-  .content_mention{
-    box-shadow: 0px 0 2px 1px #e6e5e9;
-  }
-  .mention .text{
-    padding: var(--space);
-  }
-  
-  /*---------------------------------------------------Footer---------------------------------------------------*/
-  footer{
-    display: flex;
-    justify-content: space-between;
-    font-size: var(--normal);
-    background-color: var(--black-color);
-    padding: var(--space);
-    color: var(--white-color);
-  }
+/*---------------------------------------------------Mentions--------------------------------------------------*/
+.mentions{
+  display: flex;
+  padding: 5%;
+}
+.mention img{
+  width: 100%;
+}
+h2.mention_title{
+  text-align: center;
+}
+.mention{
+  padding: var(--space);
+}
+.content_mention{
+  box-shadow: 0px 0 2px 1px #e6e5e9;
+}
+.mention .text{
+  padding: var(--space);
+}
 
 
-/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!- Producto.html - !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!- producto.html - !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
 
 /*---------------------------------------------------Main----------------------------------------------------*/
 .beneficios{
-    padding: 10%;
-    display: flex;
-  }
-  
-  .beneficio{
-    text-align: center;
-    padding: 20px;
-  }
-  
-  .beneficio img{
-    max-height: 100px
-  }
-  
-  .text_beneficio{
-    text-align: justify;
-  }
-  
-  
+  padding: 10%;
+  display: flex;
+}
 
+.beneficio{
+  text-align: center;
+  padding: 20px;
+}
+
+.beneficio img{
+  max-height: 100px
+}
+
+.text_beneficio{
+  text-align: justify;
+}
+  
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!- venta.html - !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+
+/*---------------------------------------------------Main----------------------------------------------------*/
+.main_container {
+  margin: 7% 0;
+}
+.modulo_pago {
+  background-color: var(--white-color);
+  box-shadow: var(--box);
+  padding: var(--normal);
+}
+.modulo-pago-images {
+  max-width: 15rem;
+  text-align: center;
+  width: 100%;
+  margin: 0 auto;
+}
