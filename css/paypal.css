@@ -1,0 +1,13 @@
+body {
+    background-color: var(--black-color);
+    text-align: center; 
+    color: var(--white-color);
+    height: 100vh;
+    display: flex; /*Para posicionar nuesto div.content_paypal*/
+    justify-content: center; /*Posicionamos horizontalmente los elementos, en este caso solo tenemos uno*/
+    align-items: center; /*Posicionamos verticalmente los elementos, en este caso solo tenemos uno*/
+}
+.content_paypal a {
+    color: var(--green-color);
+}
+

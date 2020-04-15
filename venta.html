@@ -15,7 +15,9 @@
     <header>
         <nav class="fadeInDown"><!--flexbox-->
             <div class="brand_image">
-                <img src="images/logo.png" alt="Logo de nuestro sitio web">
+                <a href="index.html">
+                    <img src="images/logo.png" alt="Logo de nuestro sitio web">
+                </a>
             </div><!--brand_image-->
             <div class="nav_options">
                 <ul><!--flexbox-->
@@ -39,13 +41,13 @@
                 </div><!--col-4-->
                 <div class="col-8">
                     <div class="modulo_pago">
-                        <form action="http://google.com">
+                        <form action="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=7L7RWBK2LN962" method="post" target="_blank"><!--El atributo target="_blank" despliega la nueva pagina en un formulario-->
                             <label for="name">Nombre</label>
-                            <input type="text" placeholder="Nombre" name="nombre" id="name" class="data">
+                            <input type="text" placeholder="Nombre" name="first_name" id="name" class="data">
                             <label for="email">E-mail</label>
                             <input type="text" placeholder="Correo electronico" name="email" id="email" class="data">
                             <label for="telefono">Telefono</label>
-                            <input type="text" placeholder="Numeo de Telefono" name="telefono" id="telefono" class="data">
+                            <input type="text" placeholder="Numeo de Telefono" name="night_phone_a" id="telefono" class="data">
                             <input type="submit" class="main_button" name="submit" value="Confirmar Pago">
                         </form>
                     </div><!--modulo_pago-->
