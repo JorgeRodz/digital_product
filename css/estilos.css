@@ -112,7 +112,7 @@ footer .contact a {
 
 /*---------------Contenedor productos-----------------*/
 .products {
-    background-image: url(../images/curve.png); 
+    background-image: url(https://i.imgur.com/atyU4AY.png); 
     background-size: cover; /*Para que la imagen cubra todo el espacio*/
     background-position: center top; /*Acomodamos la imagen*/
     height: 5rem;
