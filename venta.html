@@ -21,13 +21,13 @@
             </div><!--brand_image-->
             <div class="nav_options">
                 <ul><!--flexbox-->
-                    <li><a href="#">FAQ's</a></li>
-                    <li><a href="#">Producto y Descripcion</a></li>
+                    <li><a href="faqs.html">FAQ's</a></li>
+                    <li><a href="producto.html">Producto y Descripcion</a></li>
                 </ul>
             </div><!--nav-options-->
         </nav><!--Aqui termina el navbar-->    
     </header><!--Aqui termina el HEADER-->
-    <main class="main_container"> 
+    <main class="main_container f-vh"> 
         <div class="venta-main-container container">
             <div class="row">
                 <div class="col-4">
@@ -43,11 +43,11 @@
                     <div class="modulo_pago">
                         <form action="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=7L7RWBK2LN962" method="post" target="_blank"><!--El atributo target="_blank" despliega la nueva pagina en un formulario-->
                             <label for="name">Nombre</label>
-                            <input type="text" placeholder="Nombre" name="first_name" id="name" class="data">
+                            <input type="text" placeholder="Nombre" name="first_name" id="name" class="data" required>
                             <label for="email">E-mail</label>
-                            <input type="text" placeholder="Correo electronico" name="email" id="email" class="data">
+                            <input type="text" placeholder="Correo electronico" name="email" id="email" class="data" required>
                             <label for="telefono">Telefono</label>
-                            <input type="text" placeholder="Numeo de Telefono" name="night_phone_a" id="telefono" class="data">
+                            <input type="text" placeholder="Numeo de Telefono" name="night_phone_a" id="telefono" class="data" required>
                             <input type="submit" class="main_button" name="submit" value="Confirmar Pago">
                         </form>
                     </div><!--modulo_pago-->

@@ -26,6 +26,9 @@ p, label {
 }
 
 /*---------------utilidades-----------------*/
+.f-vh {
+  height: 100vh;
+}
 
 
 /*---------------Variables-----------------*/
@@ -85,13 +88,16 @@ nav ul li a:hover {
 }
 
 /*------------------Footer Global-----------------*/
-footer{
+footer {
   display: flex;
   justify-content: space-between;
   font-size: var(--normal);
   background-color: var(--black-color);
   padding: var(--space);
   color: var(--white-color);
+}
+footer .contact a {
+  color: var(--green-color);
 }
 
 /*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!- index.html - !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
@@ -206,8 +212,10 @@ h2.mention_title{
 /*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!- venta.html - !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
 
 /*---------------------------------------------------Main----------------------------------------------------*/
-.main_container {
-  margin: 7% 0;
+main.main_container.f-vh {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /*---------------col-4-----------------*/
@@ -243,5 +251,13 @@ form input.data {
 form input[type="submit"] {
   font-size: 1.6rem;
   font-weight: bold;
+}
+
+
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!- faqs.html - !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+
+/*---------------------------------------------------Main----------------------------------------------------*/
+main .container h2 {
+  margin-bottom: 2%;
 }
 

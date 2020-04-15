@@ -20,8 +20,8 @@
             </div><!--brand_image-->
             <div class="nav_options">
                 <ul><!--flexbox-->
-                    <li><a href="#">FAQ's</a></li>
-                    <li><a href="#">Producto y Descripcion</a></li>
+                    <li><a href="faqs.html">FAQ's</a></li>
+                    <li><a href="producto.html">Producto y Descripcion</a></li>
                 </ul>
             </div><!--nav-options-->
         </nav><!--Aqui termina el navbar-->    
@@ -38,7 +38,9 @@
                     </div>
                     <h2>Producto 1</h2>
                     <p>Miles de productos hay en el mercado, pero nada como una caja con gatitos</p>
-                    <button class="main_button" href="producto.html">Lo quiero</button>
+                    <a href="venta.html">
+                      <button class="main_button">Lo quiero</button><!--Solo funcionan dentro de una etiquta <form> por eso lo metimos en un enlace-->
+                    </a>
                 </div><!--content-->
             </div><!--product-->
             <div class="product fadeInUp">
@@ -48,7 +50,9 @@
                     </div>
                     <h2>Producto 2</h2>
                     <p>Miles de productos hay en el mercado, pero nada como una caja con gatitos</p>
-                    <button class="main_button" href="producto.html">Lo quiero</button>
+                    <a href="venta.html">
+                      <button class="main_button">Lo quiero</button><!--Solo funcionan dentro de una etiquta <form> por eso lo metimos en un enlace-->
+                    </a>
                 </div><!--content-->
             </div><!--product-->
         </div><!--products-->
@@ -129,7 +133,7 @@
       <!-- Inicio de footer -->
       <footer>
         <div class="option">Terminos y condiciones</div>
-        <div class="option">Contacto@mail.com</div>
+        <div class="option contact"><a href="mailto:Contacto@bran.com">Contacto@bran.com</a></div>
       </footer>
     <script src="scripts/script.js"></script>
 </body>
